@@ -1,4 +1,4 @@
-// index/store.js
+// 1index/store.js
 
 import { createStore, applyMiddleware } from 'redux';
 import createSagaMiddleware from 'redux-saga';
