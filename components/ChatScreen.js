@@ -79,7 +79,7 @@ const InboxHomeScreen = ({ navigation }) => {
     ],
   };
 
-  // Check if the message is an emoji and respond accordingly
+  // 2Check if the message is an emoji and respond accordingly
   if (responses.emojiResponses[userMessage]) {
     return responses.emojiResponses[userMessage];
   }
