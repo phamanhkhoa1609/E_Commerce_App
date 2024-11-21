@@ -4,7 +4,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import { useNavigation } from '@react-navigation/native';
 import { useSelector} from 'react-redux';
 
-import { useDispatch } from 'react-redux'; // Add this line
+import { useDispatch } from 'react-redux'; // 1Add this line
 import { addToCart } from '../index/action';
 
 import { addToFavorites, removeFromFavorites } from '../index/action';
