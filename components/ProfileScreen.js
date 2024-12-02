@@ -99,7 +99,7 @@ const ProfileScreen = ({ route }) => {
         }}
       />
       <Text style={{ fontSize: 18, fontWeight: "bold", marginTop: 10 }}>
-        {user.firstName} {user.lastName}
+        {user.firstName}{user.lastName}
       </Text>
       <Text style={{ color: "#666" }}>Gold Member</Text>
     </View>
